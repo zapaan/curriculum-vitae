@@ -20,8 +20,9 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           artifacts: "cv.pdf"
-          tag: "v1"
+          tag: "v0.0.7"
           name: "PDF"
+          body: "..."
           allowUpdates: true
       -
         if: github.ref != 'master'

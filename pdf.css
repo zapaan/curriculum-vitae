@@ -1,0 +1,94 @@
+body {
+    font-family: Helvetica, Verdana, sans-serif;
+    color: #333;
+    background: #FFF;
+    margin: 20px 80px 30px;
+    font-size: 13pt;
+}
+
+h1 {
+    font-size: 2.2em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: .8em;
+}
+
+h1 + p {
+    margin-bottom: .8em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin: 1.3em 0 .3em;
+    border-bottom: 3px solid #19BB42;
+}
+
+h3 {
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-bottom: .3em;
+}
+
+a {
+    text-decoration: none;
+    color: #363;
+}
+
+a:hover {
+    color: #484;
+}
+
+p {
+    margin: .8em 0 1.2em;
+    line-height: 1.3;
+}
+
+strong {
+    color: #363;
+}
+
+.indented-p {
+    margin-left: 2em;
+}
+
+#header {
+    color: #FFF;
+    margin: -20px -80px 0;
+    padding: 20px 80px 20px;
+    background: #19BB42;
+}
+
+#header a {
+    color: #141;
+}
+
+#compétences + ul {
+    display: block;
+    width: 88%;
+    margin: auto;
+}
+
+/* clearfix */
+#compétences + ul::after {
+    display: table;
+    content: "";
+    clear: both
+}
+
+#compétences + ul li {
+    text-align: center;
+    float: left;
+    width: 48%;
+    clear: none;
+    padding: 1%;
+}
+
+#compétences + ul li::first-line, ul li p::first-line {
+    line-height: 2em;
+}
+
+#compétences + ul>li:first-of-type {
+    width: 98%;
+}
